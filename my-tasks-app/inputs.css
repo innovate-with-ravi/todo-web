@@ -1,0 +1,100 @@
+.taskInputCont {
+    background-color: #2d2b2b;
+    display: flex;
+    gap: 10px;
+    padding: 10px 5px;
+    align-items: center;
+}
+
+#inputTaskName {
+    background-color: #403e3e;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    width: 220px;
+    min-height: 30px;
+    box-sizing: border-box;
+}
+
+#inputTaskName::placeholder {
+    color: rgb(188, 186, 186);
+    font-size: 20px;
+}
+
+#inputTaskName:focus-visible {
+    outline: none;
+}
+
+
+.createNewListBody {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: #00000047;
+    align-items: center;
+}
+
+.createNewListCont {
+    padding: 20px;
+    background-color: #282a2c;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 30px;
+}
+
+.createNewListOptions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.inputListNameCont {
+    background: var(--input-color);
+    padding: 5px;
+}
+
+#inputListName {
+    background: #4e4b4b;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#inputListName::placeholder {
+    color: rgb(188, 186, 186);
+}
+
+#inputListName:focus {
+    outline: none;
+    border-bottom: 2px solid skyblue;
+}
+
+
+.createNewListOptions>button {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    background-color: transparent;
+    padding: 10px 20px;
+    color: #a8c7fa;
+    font-weight: bold;
+}
+
+button[disabled] {
+    color: gray;
+    cursor: default;
+}

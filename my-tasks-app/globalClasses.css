@@ -1,0 +1,38 @@
+.cursor {
+    cursor: pointer;
+}
+
+.round-item-container {
+    padding: 10px;
+    /* background: black; */
+    border-radius: 100%;
+}
+
+.round {
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.hover:hover {
+    background-color: var(--hover-color);
+}
+
+.align-center {
+    align-content: center;
+}
+
+.capsule {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* border: 2px solid white; */
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.collapse {
+    display: none !important;
+}

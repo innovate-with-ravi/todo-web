@@ -1,0 +1,14 @@
+span.check_box,
+div.task>span.check_circle:hover {
+    font-variation-settings:
+        'FILL' 1
+}
+
+div.options>span.symbol {
+    font-size: 16px;
+}
+
+.add_2 {
+    font-size: 20px;
+    padding: 0px;
+}

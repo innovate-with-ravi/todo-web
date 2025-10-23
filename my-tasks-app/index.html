@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks</title>
+    <link rel="shortcut icon" href="https://fonts.gstatic.com/s/i/productlogos/tasks/v10/192px.svg" type="image/x-icon">
+
+    <style class="varibales">
+        :root {
+            --body-color: #1b1b1b;
+            --hover-color: rgb(128, 128, 128, 0.2);
+            --input-color: #2d2b2b;
+        }
+    </style>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="pageStyle.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="inputs.css">
+    <link rel="stylesheet" href="globalClasses.css">
+    <link rel="stylesheet" href="symbol.css">
+    <link rel="stylesheet" href="animate.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="brand cursor">
+                <div class="round-item-container align-center cursor hover" id="menu-btn">
+                    <img src="assets/menu-svg.svg" alt="">
+                </div>
+                <div class="taksLogoCont align-center">
+                    <img src="https://fonts.gstatic.com/s/i/productlogos/tasks/v10/192px.svg" alt="tasksLogo">
+                </div>
+                <div id="tasksName">Tasks</div>
+            </div>
+
+            <div class="otherDetails">
+                <div class="round-item-container hover">
+
+                    <img src="assets/apps-svg.svg" alt="6-dots" height="24" width="24" class="cursor">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <aside>
+            <div class="details">
+                <div class="tasks">
+                    <div id="all-tasks" class="capsule cursor hover">
+                        <span class="material-symbols-outlined symbol">done_all</span>
+                        <span>All Tasks</span>
+                    </div>
+                    <div id="starred" class="capsule cursor hover">
+                        <span class="material-symbols-outlined symbol">star</span>
+                        <span>Starred</span>
+                    </div>
+                </div>
+
+                <div class="listsCont" id="listsCont">
+                    <div class="head cursor">Lists
+                        <div class="round-item-container align-center cursor hover" id="lists-btn">
+                            <span class="material-symbols-outlined symbol">
+                                keyboard_arrow_up
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="lists" id="lists">
+                    </div>
+
+                </div>
+
+                <div class="createNewList hover cursor capsule" id="createNewList">
+                    <span class="material-symbols-outlined symbol round hover add_2">
+                        add_2
+                    </span>
+                    Create new list
+                </div>
+            </div>
+        </aside>
+
+        <section class="tasksCardsCont" id="tasksCardsCont">
+        </section>
+    </main>
+    <footer></footer>
+
+    <script src="main.js"></script>
+    <script src="static.js"></script>
+</body>
+
+</html>
